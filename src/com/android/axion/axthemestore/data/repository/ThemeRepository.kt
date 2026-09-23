@@ -38,7 +38,7 @@ class ThemeRepository(private val context: Context) {
     companion object {
         private const val TAG = "ThemeRepository"
         private const val THEMES_JSON_URL =
-            "https://raw.githubusercontent.com/crdroidandroid/android_vendor_themes/16.0/themes_v2.json"
+            "https://raw.githubusercontent.com/crdroidandroid/android_vendor_themes/17.0/themes_v2.json"
         private const val CACHE_DURATION_MS = 0L
         private const val CACHE_FILE_NAME = "themes_cache.json"
 
